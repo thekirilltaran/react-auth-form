@@ -1,0 +1,51 @@
+@import "styles/variables";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(167.96deg, #f4f9ff 0%, #e0edfb 100%);
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+input,
+input[type="password"],
+input[type="search"] {
+  cursor: auto;
+}
+
+p {
+  margin: 0;
+}
+
+input,
+button {
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

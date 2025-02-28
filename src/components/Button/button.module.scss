@@ -1,0 +1,25 @@
+@import "src/styles/variables";
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  min-height: 48px;
+  padding: 5px 20px;
+  min-width: 240px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  background: linear-gradient(110.46deg, #70c3ff 12.27%, #4b65ff 93.92%);
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.3s;
+  @media only screen and (min-width: 1024px) {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
