@@ -144,7 +144,7 @@ const SignUpForm = () => {
       setIsSubmitting(false);
       clearErrors();
     }, 3000);
-  }, []);
+  }, [isSubmitting, clearErrors]);
 
   return (
     <div className={styles.blockForm} tabIndex={0}>
