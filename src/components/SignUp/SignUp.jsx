@@ -53,7 +53,7 @@ const SignUpForm = () => {
     clearErrors,
     getValues,
     formState: { isSubmitted, errors },
-  } = useForm({ mode: "onBlur" }); // Initialize react-hook-form with validation on blur
+  } = useForm({ mode: "onBlur", reValidateMode: "onBlur" }); // Initialize react-hook-form with validation on blur
 
   const [isSubmitting, setIsSubmitting] = useState(false); // Loading state for form submission
   const [isShowPassword, setIsShowPassword] = useState(false); // Toggle password visibility
