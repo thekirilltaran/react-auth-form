@@ -5,6 +5,7 @@ export const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 export const FORM_ERRORS_MESSAGES = {
   required: "This field is required",
   requiredEmail: "Email is required",
+  emailNotFound: "Email not found",
   invalidEmail: "Invalid email format",
   requiredPassword: "Password is required",
   passwordMinLength: "8 characters or more (no spaces)",
