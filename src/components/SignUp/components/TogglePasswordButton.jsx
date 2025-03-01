@@ -3,7 +3,7 @@ import clsx from "clsx";
 import styles from "../sign-up.module.scss";
 import SvgPasswordHide, {
   SvgPasswordShow,
-} from "components/svg-components/password";
+} from "components/SvgComponents/Password";
 
 /**
  * @description A reusable button component to toggle password visibility.
